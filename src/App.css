@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+a{
+  color: rgba(255, 255, 255, 0.685);
+  text-decoration: none;
+}
+
+header{
+  background-color: rgb(52, 52, 63);
+  padding:3%;
+}
+header nav{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+header .nav-list{
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+   color: rgba(255, 255, 255, 0.685) !important;
+  list-style: none;
+}
+.nav-list a{
+  
+  font-size: 22px;
+}
+header h3{
+  color: rgba(255, 255, 255, 0.685) !important;
+  font-size: 26px;
+}
+.msg-error{
+ background-color: #cc0000;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.msg-success{
+  background-color: #00cc00;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3% 2%;
+}
+.violations-table{
+  width: 100%;
+  border: 1px solid black;
+}
+.violation-row{
+  width: 100%;
+  border: 1px solid black;
+}
+.login-main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  padding:3%;
+}
+.signup-main{ 
+  height: 550px !important;
+}
+.login-main form h2{
+  text-align: center;
+}
+.login-main form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.login-main form div{
+  margin: auto;
+  width: 50%;
+  font-weight: bold;
+}
+.login-main form div input{
+  width: 100%;
+  padding:2%;
+  margin: 3% auto;
+}
+.login-main form div button{
+  width: 30%;
+  padding: 2%;
+  background-color: rgb(52, 52, 63);
+  color: rgba(255, 255, 255, 0.685);
+  font-weight: bold;
+  cursor: pointer;
+}
+.home-main{
+  padding:4%;
+  text-align: center;
+  font-size:20px
+}
+.home-main table tr td{
+  padding: 1%;
+}
+.home-main table tr{
+  padding: 5%;
+  margin: 5%;
+}
+.home-main table tr td button{
+  padding:4%;
+  background-color: rgb(52, 52, 63);
+  color: rgba(255, 255, 255, 0.685);
+  font-weight: bold;
+  cursor: pointer;
+}
+.violation{
+  border: 1px solid grey
+}
+.violation div{
+  margin: 3%;
+}
+.violation div button{
+  padding:1%;
+  background-color: rgb(52, 52, 63);
+  color: rgba(255, 255, 255, 0.685);
+  font-weight: bold;
+  cursor: pointer;
+}
+.admin-nav{
+  display:flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content:center
+}
+.admin-nav a{
+  color:rgb(52, 52, 63) !important; 
+  margin: 0 3%;
+  font-size:18px;
+  font-weight: bold;
+}
+
+.table-head{
+  background-color: rgb(52, 52, 63);
+  color: rgba(255, 255, 255, 0.685);
+  font-weight: bolder;
+}
+.forms-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom:20px;
+}
+.forms-row form{
+  width: 30%;
+}
+.forms-row form div input{
+  padding:1%;
+  margin: 1%;
+  width: 100%;
+}
+.forms-row form div select{
+  padding:1%;
+  margin: 1%;
+  width: 100%;
+}
+.forms-row form div button{
+  background-color: rgb(52, 52, 63);
+  color: rgba(255, 255, 255, 0.685);
+  font-weight:bolder;
+  width: 100%;
+  padding: 3%;
+}
+.full-width{
+  width: 100% !important;
+}
